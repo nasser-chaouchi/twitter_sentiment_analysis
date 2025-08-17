@@ -126,8 +126,8 @@ st.markdown(
 
 reported = pd.DataFrame({
     "Model": ["TF-IDF + Naive Bayes", "BERT (fine-tuned)"],
-    "Accuracy": [0.78, 0.91],
-    "F1 (macro)": [0.77, 0.91]
+    "Accuracy": [0.77, 0.83],
+    "F1 (macro)": [0.77, 0.83]
 })
 
 c1, c2, c3 = st.columns([1, 1, 2])

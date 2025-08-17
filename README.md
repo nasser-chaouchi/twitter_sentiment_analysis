@@ -23,6 +23,8 @@ Here is a preview of the application interface:
 
 ![Streamlit Interface](images/Interface_Screenshot.png)
 
+You can access the live application [here](https://twittersentimentanalysis-cfhbucvitpghzvnwxt38vi.streamlit.app/).
+
 
 ## Project Structure
 
@@ -77,7 +79,7 @@ Two different approaches were tested:
 - Lower accuracy  
 
 ### BERT Fine-tuned (state-of-the-art)
-- High accuracy (~91%)  
+- High accuracy (~83%)  
 - Handles context & semantics  
 - Hosted as `bert_sentiment_model` on Hugging Face  
 - Requires GPU for efficient training  
@@ -87,12 +89,12 @@ Two different approaches were tested:
 ## Performance Summary
 
 ### Naive Bayes (Baseline)
-- **Accuracy**: ~78%  
+- **Accuracy**: ~77%  
 - **Macro F1-score**: ~0.77  
 
 ### BERT Fine-tuned
-- **Accuracy**: ~90–92%  
-- **Macro F1-score**: ~0.91  
+- **Accuracy**: ~83%  
+- **Macro F1-score**: ~83 
 - Handles ambiguous tweets far better than Naive Bayes  
 
 ---
