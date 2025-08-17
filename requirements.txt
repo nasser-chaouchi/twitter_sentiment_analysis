@@ -1,5 +1,6 @@
-scikit-learn
-streamlit
-torch
-transformers
-pandas
+scikit-learn==1.5.0
+streamlit==1.37.0
+torch==2.2.2
+transformers==4.41.2
+pandas==2.2.2
+huggingface_hub==0.23.0
